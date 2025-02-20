@@ -21,7 +21,7 @@
             ],
             "preLaunchTask": "Bazel Build",
             "sourceFileMap": {
-                "/Users/charles/Downloads/bazel_project/src": "${workspaceFolder}/src"
+                "${workspaceFolder}/src": "${workspaceFolder}/src"
             }
            
         }
