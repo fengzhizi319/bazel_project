@@ -1,12 +1,5 @@
 使用vscode调试bazel c++的例子。
 
-launch.json
-
-需要把"sourceFileMap": {
-                "/Users/charles/Downloads/bazel_project/src": "${workspaceFolder}/src"
-            }
-
-改为实际的保存地址
 
 ```
 {
@@ -32,7 +25,7 @@ launch.json
             ],
             "preLaunchTask": "Bazel Build",
             "sourceFileMap": {
-                "/Users/charles/Downloads/bazel_project/src": "${workspaceFolder}/src"
+                "${workspaceFolder}/src": "${workspaceFolder}/src"
             }
            
         }
